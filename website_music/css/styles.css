@@ -1,0 +1,117 @@
+
+.pink{
+    color: #ee4952 !important; 
+}
+.bg-pink{
+    background-color: #ee4952 !important; 
+}
+
+.white{
+    color: #fff !important; 
+}
+
+.blue{
+    color: #0b183d;
+}
+.bg-blue{
+    background-color: #0b183d;
+}
+
+
+/* header section */
+.navbar-bg{
+    background-color: #0b183d;
+    /* background-color: #fff; */
+}
+
+.containers{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.side{
+    font-size: 20px;
+}
+
+.side:hover{
+    color: #ee4952 !important; 
+}
+
+.head{
+    font-weight: 600;
+    font-size: 30px !important;
+}
+
+/* hero section */
+.hero{
+    /* height: 80vh; */
+    background-color: #08192d;
+}
+
+.hero-h1{
+    padding-top: 7rem;
+}
+
+p{
+    text-align: justify;
+}
+.para-a{
+    animation: gimg 1s 1;
+
+}
+
+.col{
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.button{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.image{
+    animation: gimg 1s 1;
+}
+
+@keyframes gimg{
+    from{
+        display: none;
+        margin-top: 20px;
+    }
+    top{
+        margin-top: 0px;
+    }
+}
+
+/* how it works  */
+.work{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee4952;
+}
+
+.icon-container{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 12px;
+    left: 35px;
+}
+
+/* artists */
+.pp{
+    width: 200px;
+    height: 200px;
+    background-color: #ee4952;
+    border-radius: 25px;
+}
