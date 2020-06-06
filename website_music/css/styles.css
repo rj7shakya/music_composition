@@ -152,9 +152,21 @@ p{
     .para{
         margin-top: 20px !important;
         margin-bottom: 30px;
+        
+    }
+    .pp {
+        margin-left: 4rem !important;
+    }
+    .prem-img{
+        margin-left: 3rem !important;
+
     }
 
     .flex-basis{
         flex-basis: inherit !important;
+    }
+
+    .cen{
+        text-align: center;
     }
   }
