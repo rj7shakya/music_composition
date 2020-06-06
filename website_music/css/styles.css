@@ -142,3 +142,19 @@ p{
     border-radius: 50%;
     overflow: hidden;
 }
+
+/* media queries for mobile */
+@media screen and (max-width: 600px) {
+    .image{
+        display: none;
+    }
+
+    .para{
+        margin-top: 20px !important;
+        margin-bottom: 30px;
+    }
+
+    .flex-basis{
+        flex-basis: inherit !important;
+    }
+  }
