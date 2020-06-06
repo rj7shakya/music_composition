@@ -65,7 +65,7 @@ p{
     margin-top: 75px;
 }
 
-.button{
+.button,.buttonc{
     border: none;
     padding: 20px 30px;
     border-radius: 30px;
@@ -168,5 +168,9 @@ p{
 
     .cen{
         text-align: center;
+    }
+
+    .buttonc{
+        margin: 0 4.5rem;
     }
   }
