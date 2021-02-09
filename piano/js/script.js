@@ -103,7 +103,7 @@ let pressKey = (mouseEvent, e) => {
   if (isShiftPressed) {
     selector = `[data-keyboard="⇧+${lastletter}"]`;
   } else {
-    selector = `[data-keyboard=${lastletter}]`;
+    selector = `[data-keyboard="${lastletter}"]`;
   }
   let key = document.querySelector(selector);
   if (key !== null) {
